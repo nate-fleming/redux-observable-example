@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.Table {
+  width: 50%;
+  height: auto;
+}
+
+.Left-Paddle {
+  vertical-align: middle;
+  height: 80px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.Start-Button {
+  align-self: center;
+}
+
+.Ping {
+  position: absolute;
+  top: 20%;
+  left: 8rem;
+  font-size: 4rem;
+}
+
+.Pong {
+  position: absolute;
+  top: 80%;
+  right: 8rem;
+  font-size: 4rem;
+}
