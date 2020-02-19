@@ -15,7 +15,7 @@ const renderWithRedux = (
   return render(<Provider store={mockStore}>{children}</Provider>);
 };
 
-describe("<McgContainer/>", () => {
+describe("<App/>", () => {
   it("renders", () => {
     const { asFragment } = renderWithRedux(reducer, {}, <App />);
     expect(asFragment()).toMatchSnapshot();
